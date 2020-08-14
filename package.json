@@ -1,0 +1,25 @@
+{
+  "name": "babel-plugin-add-contenthash-to-imports",
+  "version": "0.1.0",
+  "description": "Add content hash to import module names (static and dynamic): import('./mod.js') => import('./mod.h45H.js')",
+  "keywords": [
+    "babel",
+    "transform",
+    "import",
+    "hash",
+    "cache"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drjayvee/babel-plugin-add-contenthash-to-imports.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeroen Versteeg <jversteeg@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "md5-file": "^5.0.0"
+  }
+}
