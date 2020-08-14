@@ -18,6 +18,8 @@ import('./bar.1234abcd.js').then(bar => bar());
 This is intended for use in multipage web applications (more on that later), so it only works with _relative_ module
 names (e.g., `./foo.js` or `../bar/baz.js`) _with_ `.js` extension. Feel free to adjust to your needs, obviously.
 
+The content hash is simply the first 8 characters of the file's md5.
+
 ## Why?
 Now that browsers support `import` natively, web developers can use it _without_ transpilers or bundlers (like webpack).
 
