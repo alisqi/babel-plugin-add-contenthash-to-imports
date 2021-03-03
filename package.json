@@ -12,12 +12,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/drjayvee/babel-plugin-add-contenthash-to-imports.git"
+    "url": "https://github.com/alisqi/babel-plugin-add-contenthash-to-imports.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jeroen Versteeg <jversteeg@gmail.com>",
+  "author": "Jeroen Versteeg <jeroen@alisqi.com>",
   "license": "ISC",
   "dependencies": {
     "md5-file": "^5.0.0"
