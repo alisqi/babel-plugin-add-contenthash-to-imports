@@ -10,9 +10,9 @@ import('./bar.js').then(bar => bar());
 ```
 is transformed into
 ```javascript
-import foo from './js/foo.abcd1234.js';
+import foo from './js/foo.js?v=abcd1234';
 
-import('./bar.1234abcd.js').then(bar => bar());
+import('./bar.js?v=1234abcd').then(bar => bar());
 ```
 
 This is intended for use in multipage web applications (more on that later), so it only works with _relative_ module
