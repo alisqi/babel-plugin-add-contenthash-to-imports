@@ -23,7 +23,7 @@ function transform ({filename: scriptPath}, moduleName) {
 	const hash = md5Map.get(fileToImport);
 	
 	// change the module name
-	return moduleName.substr(0, moduleName.length - 3) + `.js?v=${hash}`;	// './lib/mod.js' => './lib/mod.js?v=abcd1234'
+	return moduleName.substr(0, moduleName.length - 3) + `.${hash}.js`;	// './lib/mod.js' => './lib/mod.abcd1234.js'
 }
 
 module.exports = function ({types}) {
